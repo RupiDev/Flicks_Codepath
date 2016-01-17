@@ -15,6 +15,8 @@
 		D260365D1C42E8BF00A9F431 /* FlicksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260365C1C42E8BF00A9F431 /* FlicksUITests.swift */; };
 		D260366D1C42F8AA00A9F431 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260366C1C42F8AA00A9F431 /* MoviesViewController.swift */; };
 		D26036701C43041C00A9F431 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D260366F1C43041C00A9F431 /* MovieCell.swift */; };
+		D26036EF1C45F61C00A9F431 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26036EE1C45F61C00A9F431 /* MovieCollectionViewCell.swift */; };
+		D2B45B811C4C0D3300112333 /* MoviesViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B45B801C4C0D3300112333 /* MoviesViewController2.swift */; };
 		EA5E54B262A539B5A11D0316 /* Pods_Flicks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42F4792E313C710DA709545 /* Pods_Flicks.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		D260365E1C42E8BF00A9F431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D260366C1C42F8AA00A9F431 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		D260366F1C43041C00A9F431 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D26036EE1C45F61C00A9F431 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		D2B45B801C4C0D3300112333 /* MoviesViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				D260366F1C43041C00A9F431 /* MovieCell.swift */,
+				D26036EE1C45F61C00A9F431 /* MovieCollectionViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 		D26036711C43042600A9F431 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D2B45B801C4C0D3300112333 /* MoviesViewController2.swift */,
 				D260366C1C42F8AA00A9F431 /* MoviesViewController.swift */,
 			);
 			name = "View Controllers";
@@ -355,7 +361,9 @@
 			files = (
 				D260363D1C42E8BE00A9F431 /* AppDelegate.swift in Sources */,
 				D260366D1C42F8AA00A9F431 /* MoviesViewController.swift in Sources */,
+				D2B45B811C4C0D3300112333 /* MoviesViewController2.swift in Sources */,
 				D26036701C43041C00A9F431 /* MovieCell.swift in Sources */,
+				D26036EF1C45F61C00A9F431 /* MovieCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
